@@ -1,0 +1,280 @@
+[1709217123.654][INFO]: Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 21433
+[1709217123.655][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1709217124.104][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1920,1080" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\germa\\IdeaProjects\\newproect\\build\\downloads\\1709217121870_7204_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1709217124.107][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\germa\\IdeaProjects\\newproect\\build\\downloads\\1709217121870_7204_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1709217124.108][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1709217124.111][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1709217124.111][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1709217124.113][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\germa\AppData\Local\Temp\scoped_dir14428_1540918086" --window-size=1920,1080 data:,
+[1709217125.154][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1709217125.553][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "122.0.6261.95",
+      "chrome": {
+         "chromedriverVersion": "122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})",
+         "userDataDir": "C:\\Users\\germa\\AppData\\Local\\Temp\\scoped_dir14428_1540918086"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49512"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "bf5abfc7895c09c5e3abd316d6895044"
+}
+[1709217126.080][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1709217126.080][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE SetTimeouts
+[1709217126.104][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND Navigate {
+   "url": "https://tinyurl.com/app"
+}
+[1709217126.104][INFO]: Waiting for pending navigations...
+[1709217126.106][INFO]: Done waiting for pending navigations. Status: ok
+[1709217126.792][INFO]: Waiting for pending navigations...
+[1709217129.713][INFO]: Done waiting for pending navigations. Status: target frame detached
+[1709217129.726][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE Navigate
+[1709217130.044][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217130.044][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217130.307][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217130.307][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217130.524][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217130.525][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217130.749][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217130.749][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217130.965][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217130.965][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217131.188][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217131.188][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217131.402][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217131.403][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217131.622][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217131.622][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217131.840][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217131.840][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217132.059][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217132.059][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217132.282][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217132.282][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217132.503][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217132.503][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217132.751][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217132.751][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217132.968][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217132.968][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217133.189][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217133.190][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217133.411][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217133.411][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217133.630][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type=\"text\"]"
+}
+[1709217133.630][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217133.875][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1709217133.875][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217133.889][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND Screenshot {
+}
+[1709217133.890][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE Screenshot ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.95)
+[1709217133.944][INFO]: [bf5abfc7895c09c5e3abd316d6895044] COMMAND Quit {
+}
+[1709217133.945][INFO]: [bf5abfc7895c09c5e3abd316d6895044] RESPONSE Quit
